@@ -34,3 +34,8 @@ Tab:AddButton({
     Name = "Low Gravity", 
     Callback = function() 
        game.Workspace.Gravity = 10 end })
+
+local Tab = Window:MakeTab({
+    Name = "Fe Scripts", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
