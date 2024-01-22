@@ -31,17 +31,17 @@ Tab:AddButton({
     Callback = function() 
        player.Character.Humanoid.JumpPower = 100 end })
 
-Tab:AddButton({ 
-    Name = "Low Gravity", 
-    Callback = function() 
-       game.Workspace.Gravity = 10 end })
-
 local Tab = Window:MakeTab({
-    Name = "Fe Scripts", 
+    Name = "Gui's", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
 Tab:AddButton({ 
-    Name = "Ink Monster ", 
+    Name = "Game Hub", 
     Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/MrVoid1ST/Scripts/main/Fe%20Ink%20Monster"))() end ({
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Game-hub-9815"))() end })
+
+Tab:AddButton({ 
+    Name = "Orange X", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-OrangeX-hub-v5-7606"))() end })
