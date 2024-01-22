@@ -71,3 +71,8 @@ Tab:AddButton({
     Name = "Fe Genesis", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Genesis-Hub-9584"))() end })
+
+Tab:AddButton({ 
+    Name = "Ban hammer", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))() end })
