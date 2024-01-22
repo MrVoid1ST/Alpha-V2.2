@@ -26,7 +26,10 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 
-
+Tab:AddButton({ 
+    Name = "Esp", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
 local Tab = Window:MakeTab({
     Name = "Gui's", 
     Icon = "rbxassetid://4483345998",
