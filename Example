@@ -70,4 +70,4 @@ local Tab = Window:MakeTab({
 Tab:AddButton({ 
     Name = "Fe Genesis", 
     Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-genesis-fe-dnce-9048"))() end })
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Genesis-Hub-9584"))() end })
