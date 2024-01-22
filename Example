@@ -1,0 +1,37 @@
+local player = game.Players.LocalPlayer 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Void Hub alphaV2.2", 
+    HidePremium = false, 
+    SaveConfig = true, 
+    ConfigFolder = "OrionTest"}) 
+
+local Tab = Window:MakeTab({
+    Name = "Player", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+local Section = Tab:AddSection({ 
+    Name = "LocalPlayer" }) 
+
+OrionLib:MakeNotification({
+    Name = "Welcome!", 
+    Content = "Welcome to my hub!",
+    Image = "rbxassetid://4483345998", 
+    Time = 5 }) 
+
+Tab:AddButton({ 
+    Name = "High Speed",
+    Callback = function() 
+       player.Character.Humanoid.WalkSpeed = 500 end }) 
+
+Tab:AddButton({
+    Name = "High Jumppower", 
+    Callback = function() 
+       player.Character.Humanoid.JumpPower = 100 end })
+
+Tab:AddButton({ 
+    Name = "Low Gravity", 
+    Callback = function() 
+       game.Workspace.Gravity = 10 end })
