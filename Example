@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Void Hub alphaV2.2", 
+    Name = "Void Hub AlphaV2.2", 
     HidePremium = false, 
     SaveConfig = true, 
     ConfigFolder = "OrionTest"}) 
@@ -22,10 +22,9 @@ OrionLib:MakeNotification({
     Time = 5 }) 
 
 Tab:AddButton({ 
-    Name = "High Speed",
+    Name = "Fly",
     Callback = function() 
-       player.Character.Humanoid.WalkSpeed = 500 end }) 
-
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 Tab:AddButton({
     Name = "High Jumppower", 
     Callback = function() 
