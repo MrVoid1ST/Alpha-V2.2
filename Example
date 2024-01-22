@@ -24,7 +24,7 @@ OrionLib:MakeNotification({
 Tab:AddButton({ 
     Name = "Fly",
     Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
 
 Tab:AddButton({ 
     Name = "İnfinite Yield", 
