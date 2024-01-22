@@ -45,3 +45,18 @@ Tab:AddButton({
     Name = "Orange X", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-OrangeX-hub-v5-7606"))() end })
+
+Tab:AddButton({ 
+    Name = "Ghost Hub", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghost-Hub-9730"))() end })
+
+Tab:AddButton({ 
+    Name = "System Broken", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))() end })
+
+local Tab = Window:MakeTab({
+    Name = "Admin's", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
