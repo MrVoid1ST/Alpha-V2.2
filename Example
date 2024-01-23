@@ -67,6 +67,11 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-OrangeX-hub-v5-7606"))() end })
 
 Tab:AddButton({ 
+    Name = "Ghub V13", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghub-Ui-v13-9485"))() end })
+
+Tab:AddButton({ 
     Name = "Ghost Hub", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghost-Hub-9730"))() end })
