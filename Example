@@ -104,6 +104,7 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "Fe Zombie Animation+Fling", 
     Callback = function()
+       loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))() end })
 
 local Tab = Window:MakeTab({
     Name = "Game's", 
