@@ -24,12 +24,22 @@ OrionLib:MakeNotification({
 Tab:AddButton({ 
     Name = "Fly",
     Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 
 Tab:AddButton({ 
     Name = "Esp", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
+
+Tab:AddButton({ 
+    Name = "Infinite Yield", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
+
+Tab:AddButton({ 
+    Name = "Anti Afk", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-nti-fk-script-for-every-gme-4311"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Gui's", 
@@ -80,3 +90,8 @@ Tab:AddButton({
     Name = "Ban hammer", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))() end })
+
+Tab:AddButton({ 
+    Name = "Rdc 2", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
