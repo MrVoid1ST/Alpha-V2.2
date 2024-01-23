@@ -32,6 +32,11 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
 
 Tab:AddButton({ 
+    Name = "Chat Spy", 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-Spy-Script-2104"))() end })
+
+Tab:AddButton({ 
     Name = "Infinite Yield", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
@@ -67,11 +72,6 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-OrangeX-hub-v5-7606"))() end })
 
 Tab:AddButton({ 
-    Name = "Ghub V13", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghub-Ui-v13-9485"))() end })
-
-Tab:AddButton({ 
     Name = "Ghost Hub", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghost-Hub-9730"))() end })
@@ -100,3 +100,13 @@ Tab:AddButton({
     Name = "Rdc 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
+
+local Tab = Window:MakeTab({
+    Name = "Game's", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddButton({ 
+    Name = "Blox Fruits-Mango Hub", 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/UPDATE-16-Blox-Fruits-Mango-Hub-6540"))() end })
