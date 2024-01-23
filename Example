@@ -95,8 +95,3 @@ Tab:AddButton({
     Name = "Rdc 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
-
-local Tab = Window:MakeTab({
-    Name = "Games", 
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false }) 
