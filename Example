@@ -105,6 +105,20 @@ Tab:AddButton({
     Name = "Fe Zombie Animation+Fling", 
     Callback = function()
        loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))() end })
+Tab:AddButton({ 
+    Name = "Fe pp",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Spin%20hats"))() end })
+
+Tab:AddButton({ 
+    Name = "Fe Hat Spin",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Spin%20hats"))() end })
+
+Tab:AddButton({ 
+    Name = "Fe Hat Blocker",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Hats%20blocker"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Game's", 
