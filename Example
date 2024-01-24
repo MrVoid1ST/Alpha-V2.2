@@ -129,3 +129,10 @@ Tab:AddButton({
     Name = "Blox Fruits-Mango Hub", 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/UPDATE-16-Blox-Fruits-Mango-Hub-6540"))() end })
+
+Tab:AddButton({ 
+    Name = "Break İn story 2-OP ADMIN",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))() end })
+
+
