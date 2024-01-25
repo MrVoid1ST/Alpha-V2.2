@@ -136,6 +136,11 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Kidnap%20again"))() end })
 
+Tab:AddButton({ 
+    Name = "Fe Telekinesis",
+    Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))() end })
+
 local Tab = Window:MakeTab({
     Name = "Game's", 
     Icon = "rbxassetid://4483345998",
