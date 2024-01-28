@@ -196,3 +196,12 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))() end })
 
+Tab:AddButton({ 
+    Name = "Pet Simulator 99-",
+    Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/Egorikusa/PremiumScripts/main/2509b46cf18bf7e98457a83f.lua'))() end })
+
+Tab:AddButton({ 
+    Name = "Strongest Battlegrounds-MrBacon Key:GuiV2OPOPOPSCRIPTOMG",
+    Callback = function() 
+       loadstring(game:HttpGet("https://pastefy.app/REPoaFWC/raw",true))(); end })
