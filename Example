@@ -202,6 +202,6 @@ Tab:AddButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Egorikusa/PremiumScripts/main/2509b46cf18bf7e98457a83f.lua'))() end })
 
 Tab:AddButton({ 
-    Name = "Strongest Battlegrounds-MrBacon Key:GuiV2OPOPOPSCRIPTOMG",
+    Name = "Strongest Battlegrounds Key:GuiV2OPOPOPSCRIPTOMG",
     Callback = function() 
        loadstring(game:HttpGet("https://pastefy.app/REPoaFWC/raw",true))(); end })
