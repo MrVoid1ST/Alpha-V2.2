@@ -171,6 +171,11 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/MastersMZ-Scripts/Scripts/main/Thug%20shaker.lua"))() end })
 
+Tab:AddButton({ 
+    Name = "Fe Tool Orbit",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Tool"))() end })
+
 local Tab = Window:MakeTab({
     Name = "Game's", 
     Icon = "rbxassetid://4483345998",
