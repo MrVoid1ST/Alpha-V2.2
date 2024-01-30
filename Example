@@ -51,6 +51,11 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))() end })
 
+Tab:AddButton({ 
+    Name = "Get all",
+    Callback = function() 
+       for i,v in pairs (game.Players:GetChildren()) do wait() for i,b in pairs (v.Backpack:GetChildren()) do b.Parent = game.Players.LocalPlayer.Backpack end end end })
+
 local Tab = Window:MakeTab({
     Name = "Gui's", 
     Icon = "rbxassetid://4483345998",
@@ -97,7 +102,7 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))() end })
 
 local Tab = Window:MakeTab({
-    Name = "Fe Script's", 
+    Name = "Fe Script's-R6", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
@@ -175,6 +180,11 @@ Tab:AddButton({
     Name = "Fe Tool Orbit",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Tool"))() end })
+
+Tab:AddButton({ 
+    Name = "Fe Ferris Wheel",
+    Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_8u7A6D92KJWJXgB4btM3lJNPDy2mCi61S191KbGF2EfX9621qbXQg0tBivwEi0Kr.lua.txt'),true))() end })
 
 local Tab = Window:MakeTab({
     Name = "Game's", 
