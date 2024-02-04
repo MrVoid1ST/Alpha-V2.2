@@ -72,6 +72,11 @@ Tab:AddButton({
        loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)() end })
 
 Tab:AddButton({ 
+    Name = "Op Admin Panel", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
+
+Tab:AddButton({ 
     Name = "Script Hub", 
     Callback = function() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))() end })
@@ -100,6 +105,26 @@ Tab:AddButton({
     Name = "System Broken", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))() end })
+
+local Tab = Window:MakeTab({
+    Name = "Executers", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddButton({ 
+    Name = "Synapse X", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Synapse-x-remake-9371"))() end })
+
+local Tab = Window:MakeTab({
+    Name = "NonFe Scripts", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddButton({ 
+    Name = "Ro-Xploit", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ro-xploit-6-9233"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Fe Script's-R6", 
