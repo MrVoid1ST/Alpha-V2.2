@@ -259,3 +259,8 @@ Tab:AddButton({
     Name = "Brookhaven-Admin Panel", 
     Callback = function() 
        loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
+
+Tab:AddButton({ 
+    Name = "F3x Replicator", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-F3x-Remote-Replicator-Script-7849"))() end })
