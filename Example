@@ -72,11 +72,6 @@ Tab:AddButton({
        loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)() end })
 
 Tab:AddButton({ 
-    Name = "Op Admin Panel", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
-
-Tab:AddButton({ 
     Name = "Script Hub", 
     Callback = function() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))() end })
@@ -254,3 +249,38 @@ Tab:AddButton({
     Name = "Strongest Battlegrounds Key:GuiV2OPOPOPSCRIPTOMG",
     Callback = function() 
        loadstring(game:HttpGet("https://pastefy.app/REPoaFWC/raw",true))(); end })
+
+Tab:AddButton({
+    Name = "Strongest Battle Grounds NonKey", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://pastefy.app/ZnTIDEGA/raw",true))(); end })
+
+Tab:AddButton({ 
+    Name = "Brookhaven-Admin Panel", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
+
+Tab:AddButton({
+    Name = "Blade Ball-Visual Key IUseVisualFree", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
+
+Tab:AddButton({
+    Name = "Kohls Admin-CMDY, 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Kohls-Admin-House-NBC-CMD-Kohls-Admin-Script-4454"))() end })
+
+Tab:AddButton({
+    Name = "F3x Replicator", 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-F3x-Remote-Replicator-Script-7849"))()loadstring(game:HttpGet("https://scriptblox.com/raw/Kohls-Admin-House-NBC-CMD-Kohls-Admin-Script-4454"))() end })
+
+Tab:AddButton({
+    Name = "F3x Replicator 2", 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-f3x-gui-10327"))() end })
+
+Tab:AddButton({
+    Name = "F3x Backdoor", 
+    Callback = function() 
+       loadstring(game:HttpGet('https://gist.githubusercontent.com/MRSBLACK999/a1521a41ab1d1b67f5073aacce0bce32/raw/432ed275c41a160eca06ca1ad473a67a50168182/Fe%2520F3x%2520Backdoor%2520Gui'))() end })
