@@ -264,3 +264,8 @@ Tab:AddButton({
     Name = "F3x Replicator", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-F3x-Remote-Replicator-Script-7849"))() end })
+
+Tab:AddButton({ 
+    Name = "F3x Replicator 2", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-f3x-gui-10327"))() end })
