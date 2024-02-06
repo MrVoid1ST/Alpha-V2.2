@@ -261,11 +261,6 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
 
 Tab:AddButton({
-    Name = "Blade Ball-Visual Key IUseVisualFree", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
-
-Tab:AddButton({
     Name = "Kohls Admin-CMDY, 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/Kohls-Admin-House-NBC-CMD-Kohls-Admin-Script-4454"))() end })
