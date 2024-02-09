@@ -137,6 +137,11 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))() end })
 
 Tab:AddButton({ 
+    Name = "Genor",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))() end })
+
+Tab:AddButton({ 
     Name = "Fe Rdc 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
@@ -269,3 +274,23 @@ Tab:AddButton({
     Name = "F3x Replicator 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-f3x-gui-10327"))() end })
+
+Tab:AddButton({ 
+    Name = "F3x Replicator 3",
+    Callback = function() 
+       loadstring(game:HttpGet('https://gist.githubusercontent.com/MRSBLACK999/a1521a41ab1d1b67f5073aacce0bce32/raw/432ed275c41a160eca06ca1ad473a67a50168182/Fe%2520F3x%2520Backdoor%2520Gui'))() end })
+
+Tab:AddButton({ 
+    Name = "Dark Modz Exploit",
+    Callback = function() 
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix",true))() end })
+
+Tab:AddButton({ 
+    Name = "Blade Ball-IUseVisualFree",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
+
+Tab:AddButton({ 
+    Name = "Kohls Admin-Cmdy",
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Kohls-Admin-House-NBC-CMD-Kohls-Admin-Script-4454"))() end })
