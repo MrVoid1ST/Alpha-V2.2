@@ -251,19 +251,24 @@ Tab:AddButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Egorikusa/PremiumScripts/main/2509b46cf18bf7e98457a83f.lua'))() end })
 
 Tab:AddButton({ 
-    Name = "Strongest Battlegrounds Key:GuiV2OPOPOPSCRIPTOMG",
+    Name = "Strongest Battle Grounds-MrBacon",
     Callback = function() 
-       loadstring(game:HttpGet("https://pastefy.app/REPoaFWC/raw",true))(); end })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))() end })
 
-Tab:AddButton({
-    Name = "Strongest Battle Grounds NonKey", 
+Tab:AddButton({ 
+    Name = "Slap Battles",
     Callback = function() 
-       loadstring(game:HttpGet("https://pastefy.app/ZnTIDEGA/raw",true))(); end })
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Slap-Battles-kviks-and-mrargy-script-10288"))() end })
 
 Tab:AddButton({ 
     Name = "Brookhaven-Admin Panel", 
     Callback = function() 
        loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
+
+Tab:AddButton({ 
+    Name = "Blade ball",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))() end })
 
 Tab:AddButton({ 
     Name = "F3x Replicator", 
@@ -294,3 +299,11 @@ Tab:AddButton({
     Name = "Kohls Admin-Cmdy",
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Kohls-Admin-House-NBC-CMD-Kohls-Admin-Script-4454"))() end })
+
+Tab:AddButton({ 
+    Name = "Kohls Admin-Dark Kohls",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua"))() end })
+
+
+
