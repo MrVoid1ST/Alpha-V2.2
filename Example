@@ -142,6 +142,11 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))() end })
 
 Tab:AddButton({ 
+    Name = "Neko",
+    Callback = function()
+       DisableFlingHealthBar = false loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neko"))() end })
+
+Tab:AddButton({ 
     Name = "Fe Rdc 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
@@ -241,11 +246,6 @@ Tab:AddButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))() end })
 
 Tab:AddButton({ 
-    Name = "Prison Life-Tiger Admin",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))() end })
-
-Tab:AddButton({ 
     Name = "Pet Simulator 99-",
     Callback = function() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Egorikusa/PremiumScripts/main/2509b46cf18bf7e98457a83f.lua'))() end })
@@ -305,5 +305,9 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua"))() end })
 
+Tab:AddButton({ 
+    Name = "Prison Life-Tiger Admin",
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-Tiger-admin-free-10333"))() end })
 
 
