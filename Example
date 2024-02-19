@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({
     SaveConfig = true, 
     ConfigFolder = "OrionTest"}) 
 
-local Tab = Window:MakeTab({
+Tab = Window:MakeTab({
     Name = "Player", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
@@ -55,6 +55,16 @@ Tab:AddButton({
     Name = "Get all",
     Callback = function() 
        for i,v in pairs (game.Players:GetChildren()) do wait() for i,b in pairs (v.Backpack:GetChildren()) do b.Parent = game.Players.LocalPlayer.Backpack end end end })
+
+Tab = Window:MakeTab({
+    Name = "Executers-", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddButton({
+    Name = "Fluxus", 
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-ReMake-Beta-by-AnyaDev-8562"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Gui's", 
