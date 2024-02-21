@@ -57,7 +57,7 @@ Tab:AddButton({
        for i,v in pairs (game.Players:GetChildren()) do wait() for i,b in pairs (v.Backpack:GetChildren()) do b.Parent = game.Players.LocalPlayer.Backpack end end end })
 
 Tab = Window:MakeTab({
-    Name = "Executers-", 
+    Name = "Executers", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
