@@ -26,6 +26,11 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 
+Tab:AddButton({
+    Name = "Chat Bypass Fe", 
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Menace'))() end })
+
 Tab:AddButton({ 
     Name = "Esp", 
     Callback = function() 
@@ -65,6 +70,11 @@ Tab:AddButton({
     Name = "Fluxus", 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-ReMake-Beta-by-AnyaDev-8562"))() end })
+
+Tab:AddButton({ 
+    Name = "Synapse X", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Synapse-x-remake-9371"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Gui's", 
@@ -110,16 +120,6 @@ Tab:AddButton({
     Name = "System Broken", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))() end })
-
-local Tab = Window:MakeTab({
-    Name = "Executers", 
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false }) 
-
-Tab:AddButton({ 
-    Name = "Synapse X", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Synapse-x-remake-9371"))() end })
 
 local Tab = Window:MakeTab({
     Name = "NonFe Scripts", 
@@ -245,10 +245,16 @@ Tab:AddButton({
     Name = "Break İn Story 1", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))() end })
+
 Tab:AddButton({ 
     Name = "Cant Say Word-Can Say The Word",
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Cant-Say-the-Word-Can-Say-word-4686"))() end })
+
+Tab:AddButton({
+    Name = "Sol's RNG", 
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))() end })
 
 Tab:AddButton({ 
     Name = "Mm2-Nexus Hub",
