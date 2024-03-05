@@ -1,3 +1,9 @@
+print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
+print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
+print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
+print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
+print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
+
 local player = game.Players.LocalPlayer 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
@@ -21,15 +27,31 @@ OrionLib:MakeNotification({
     Image = "rbxassetid://4483345998", 
     Time = 5 }) 
 
+OrionLib:MakeNotification({
+    Name = "You need know That", 
+    Content = "This Hub Made Fully By MrVoid (Ozan36y)",
+    Image = "rbxassetid://4483345998", 
+    Time = 8 }) 
+
 Tab:AddButton({ 
     Name = "Fly",
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 
 Tab:AddButton({
-    Name = "Chat Bypass Fe", 
+    Name = "Chat Bypass Fe-New Chat!", 
+    Callback = function()
+       loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))(); end })
+
+Tab:AddButton({
+    Name = "Chat Bypass Fe-Old Chat", 
     Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/ChainGotStucked/a55af82d82574/main/Menace'))() end })
+
+Tab:AddButton({
+    Name = "Chat Bypass Fe-Old Chat", 
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))() end })
 
 Tab:AddButton({ 
     Name = "Esp", 
@@ -37,7 +59,7 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
 
 Tab:AddButton({ 
-    Name = "Chat Spy", 
+    Name = "Chat Spy-Old Chat", 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-Spy-Script-2104"))() end })
 
@@ -50,11 +72,6 @@ Tab:AddButton({
     Name = "Anti Afk", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-nti-fk-script-for-every-gme-4311"))() end })
-
-Tab:AddButton({ 
-    Name = "Chat Bypass", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))() end })
 
 Tab:AddButton({ 
     Name = "Get all",
@@ -155,6 +172,11 @@ Tab:AddButton({
     Name = "Neko",
     Callback = function()
        DisableFlingHealthBar = false loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neko"))() end })
+
+Tab:AddButton({
+    Name = "Lightning Cannon", 
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))() end })
 
 Tab:AddButton({ 
     Name = "Fe Rdc 2", 
@@ -330,3 +352,8 @@ Tab:AddButton({
     Name = "Babft-Rolly ", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))() end })
+
+Tab:AddButton({
+    Name = "Cook Burgers But 100 Player-Cooked", 
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebinp.com/raw/LMWCkgnm"))() end })
