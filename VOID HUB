@@ -29,9 +29,9 @@ OrionLib:MakeNotification({
 
 OrionLib:MakeNotification({
     Name = "You need know That", 
-    Content = "This Hub Made Fully By MrVoid (Ozan36y)",
+    Content = "This Hub Made Fully By MrVoid (Ozan36yt)",
     Image = "rbxassetid://4483345998", 
-    Time = 8 }) 
+    Time = 12 }) 
 
 Tab:AddButton({ 
     Name = "Fly",
