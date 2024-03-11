@@ -25,9 +25,6 @@ Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
-local Section = Tab:AddSection({ 
-    Name = "LocalPlayer" }) 
-
 OrionLib:MakeNotification({
     Name = "Welcome!", 
     Content = "Welcome to Darkness...!",
@@ -45,10 +42,18 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Chat Bypassers And Other Chat Things" }) 
+
 Tab:AddButton({
     Name = "Chat Bypass Fe-New Chat!", 
     Callback = function()
        loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))(); end })
+
+Tab:AddButton({
+    Name = "Chat Bypass Fe-New Chat2!", 
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))() end })
 
 Tab:AddButton({
     Name = "Chat Bypass Fe-Old Chat", 
@@ -61,19 +66,26 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))() end })
 
 Tab:AddButton({ 
-    Name = "Esp", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
-
-Tab:AddButton({ 
     Name = "Chat Spy-Old Chat", 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-Spy-Script-2104"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Admins" }) 
 
 Tab:AddButton({ 
     Name = "Infinite Yield", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Other Things" }) 
+
+Tab:AddButton({ 
+    Name = "Esp", 
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
+
 
 Tab:AddButton({ 
     Name = "Anti Afk", 
@@ -160,6 +172,9 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
+local Section = Tab:AddSection({ 
+    Name = "Genesis Fe-Re Animate" }) 
+
 Tab:AddButton({ 
     Name = "Fe Genesis", 
     Callback = function() 
@@ -184,6 +199,9 @@ Tab:AddButton({
     Name = "Lightning Cannon", 
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "----" }) 
 
 Tab:AddButton({ 
     Name = "Fe Rdc 2", 
@@ -226,11 +244,6 @@ Tab:AddButton({
        local lp = game.Players.LocalPlayer local char = lp.Character for i, v in pairs(char:GetChildren()) do if v:IsA("BallSocketConstraint") then v:Destroy() end end for i, v in pairs(char:GetChildren()) do if v:IsA("HingeConstraint") then v:Destroy() end end for i, v in pairs(char.Humanoid:GetAccessories()) do local hat = v.Name char[hat].Archivable = true local fake = char[hat]:Clone() fake.Parent = char fake.Handle.Transparency = 1 local hold = false local enabled = false char[hat].Handle.AccessoryWeld:Destroy() local tool = Instance.new("Tool", lp.Backpack) tool.RequiresHandle = true tool.CanBeDropped = false tool.Name = hat local handle = Instance.new("Part", tool) handle.Name = "Handle" handle.Size = Vector3.new(1, 1, 1) handle.Massless = true handle.Transparency = 1 local positions = { forward = tool.GripForward, pos = tool.GripPos, right = tool.GripRight, up = tool.GripUp } tool.Equipped:connect(function() hold = true end) tool.Unequipped:connect(function() hold = false end) tool.Activated:connect(function() if enabled == false then enabled = true tool.GripForward = Vector3.new(-0.976,0,-0.217) tool.GripPos = Vector3.new(.95,-0.76,1.4) tool.GripRight = Vector3.new(0.217,0, 0.976) tool.GripUp = Vector3.new(0,1,0) wait(.8) tool.GripForward = positions.forward tool.GripPos = positions.pos tool.GripRight = positions.right tool.GripUp = positions.up enabled = false end end) game:GetService("RunService").Heartbeat:connect(function() pcall(function() char[hat].Handle.Velocity = Vector3.new(30, 0, 0) if hold == false then char[hat].Handle.CFrame = fake.Handle.CFrame elseif hold == true then char[hat].Handle.CFrame = handle.CFrame end end) end) end end })
 
 Tab:AddButton({ 
-    Name = "Kidnap Gui",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Kidnap%20again"))() end })
-
-Tab:AddButton({ 
     Name = "Fe Telekinesis",
     Callback = function() 
        loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))() end })
@@ -260,10 +273,16 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
+local Section = Tab:AddSection({ 
+    Name = "Blox Fruits" }) 
+
 Tab:AddButton({ 
     Name = "Blox Fruits-Mango Hub", 
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/UPDATE-16-Blox-Fruits-Mango-Hub-6540"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Break İn Story (1-2)" }) 
 
 Tab:AddButton({ 
     Name = "Break İn story 2-OP ADMIN",
@@ -275,45 +294,77 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Cant Say Word" }) 
+
 Tab:AddButton({ 
     Name = "Cant Say Word-Can Say The Word",
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Cant-Say-the-Word-Can-Say-word-4686"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Sol's RNG" }) 
 
 Tab:AddButton({
     Name = "Sol's RNG", 
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Mm2" }) 
+
 Tab:AddButton({ 
     Name = "Mm2-Nexus Hub",
     Callback = function() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Pet Simulator 99" }) 
+
 Tab:AddButton({ 
-    Name = "Pet Simulator 99-",
+    Name = "Pet Simulator 99-This Script dont verified!This is ur own risk!",
     Callback = function() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/Egorikusa/PremiumScripts/main/2509b46cf18bf7e98457a83f.lua'))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "The Strongest Battle Grounds" }) 
 
 Tab:AddButton({ 
     Name = "Strongest Battle Grounds-MrBacon",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Slap Battles (They Banned Me:( " }) 
+
 Tab:AddButton({ 
     Name = "Slap Battles",
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Slap-Battles-kviks-and-mrargy-script-10288"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Brookhaven" }) 
 
 Tab:AddButton({ 
     Name = "Brookhaven-Admin Panel", 
     Callback = function() 
        loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Blade Ball" }) 
+
 Tab:AddButton({ 
     Name = "Blade ball",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))() end })
+
+Tab:AddButton({ 
+    Name = "Blade Ball-Key:IUseVisualFree",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "F3x Replicators" }) 
 
 Tab:AddButton({ 
     Name = "F3x Replicator", 
@@ -330,15 +381,9 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet('https://gist.githubusercontent.com/MRSBLACK999/a1521a41ab1d1b67f5073aacce0bce32/raw/432ed275c41a160eca06ca1ad473a67a50168182/Fe%2520F3x%2520Backdoor%2520Gui'))() end })
 
-Tab:AddButton({ 
-    Name = "Dark Modz Exploit",
-    Callback = function() 
-       loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix",true))() end })
 
-Tab:AddButton({ 
-    Name = "Blade Ball-IUseVisualFree",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
+local Section = Tab:AddSection({ 
+    Name = "Kohls Admin" }) 
 
 Tab:AddButton({ 
     Name = "Kohls Admin-Cmdy",
@@ -350,17 +395,32 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/DarkKohls/GUI.lua"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Prison Life" }) 
+
 Tab:AddButton({ 
     Name = "Prison Life-Tiger Admin",
     Callback = function()
        loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-Tiger-admin-free-10333"))() end })
+
+local Section = Tab:AddSection({ 
+    Name = "Build A Boat" }) 
 
 Tab:AddButton({ 
     Name = "Babft-Rolly ", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))() end })
 
+local Section = Tab:AddSection({ 
+    Name = "Other Things" }) 
+
 Tab:AddButton({
     Name = "Cook Burgers But 100 Player-Cooked", 
     Callback = function()
        loadstring(game:HttpGet("https://pastebinp.com/raw/LMWCkgnm"))() end })
+
+
+Tab:AddButton({ 
+    Name = "Dark Modz Exploit",
+    Callback = function() 
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix",true))() end })
