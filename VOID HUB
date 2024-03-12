@@ -410,13 +410,6 @@ Tab:AddButton({
     Name = "Babft-Rolly ", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))() end })
-
-local Section = Tab:AddSection({ 
-    Name = "Rate My Avatar" }) 
-
-Tab:AddButton({ 
-    Name = " Coming Soon..!", 
-    Callback = function() 
            
 local Section = Tab:AddSection({ 
     Name = "Other Things" }) 
