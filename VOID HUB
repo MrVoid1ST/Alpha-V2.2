@@ -173,6 +173,14 @@ local Tab = Window:MakeTab({
     PremiumOnly = false }) 
 
 local Section = Tab:AddSection({ 
+    Name = "Patchma Hub-Re Animate #1" }) 
+
+Tab:AddButton({ 
+    Name = "Patchma Hub V33",
+    Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/AnonymousDarknes/ScriptROBLOX/main/message%20(4).txt', true))() end })
+
+local Section = Tab:AddSection({ 
     Name = "Genesis Fe-Re Animate" }) 
 
 Tab:AddButton({ 
