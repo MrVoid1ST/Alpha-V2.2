@@ -45,6 +45,11 @@ Tab:AddButton({
 local Section = Tab:AddSection({ 
     Name = "Chat Bypassers And Other Chat Things" }) 
 
+Tab:AddButton({ 
+    Name = "Chat Mimic ", 
+    Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./2520c121ab919b2b9697ab5c70797dcfdaa5db43/Ohio'))() end })
+
 Tab:AddButton({
     Name = "Chat Bypass Fe-New Chat!", 
     Callback = function()
