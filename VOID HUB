@@ -78,6 +78,11 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))() end })
 
+Tab:AddButton({ 
+    Name = "Nameless Admin",
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-admin-9602"))() end })
+
 local Section = Tab:AddSection({ 
     Name = "Other Things" }) 
 
@@ -85,7 +90,6 @@ Tab:AddButton({
     Name = "Esp", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-6338"))() end })
-
 
 Tab:AddButton({ 
     Name = "Anti Afk", 
