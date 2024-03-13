@@ -209,21 +209,6 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))() end })
 
 local Section = Tab:AddSection({ 
-    Name = "Syntax Hub Key : Syntaxbesthub " }) 
-
-Tab:AddButton({ 
-    Name = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))() end })
-    Callback = function() 
-
-local Section = Tab:AddSection({ 
-    Name = "Script Hub" }) 
-
-Tab:AddButton({ 
-    Name = "Script Hub", 
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))() end })
-
-local Section = Tab:AddSection({ 
     Name = "----" }) 
 
 Tab:AddButton({ 
