@@ -12,12 +12,10 @@ local Window = OrionLib:MakeWindow({
     HidePremium = false, 
     SaveConfig = true, 
     ConfigFolder = "OrionTest"})
-    IntroText = "Void Hub",
-    IntroIcon = "rbxassetid://15694493628"})
 
 Tab = Window:MakeTab({
     Name = "Main", 
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://15694493628",
     PremiumOnly = false }) 
 
 Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
