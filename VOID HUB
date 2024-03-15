@@ -11,8 +11,8 @@ local Window = OrionLib:MakeWindow({
     Name = "Void Hub-By MrVoid", 
     HidePremium = false, 
     SaveConfig = true, 
-    ConfigFolder = "OrionTest",
-    IntroText = "Void Hub!"})
+    ConfigFolder = "OrionTest"
+    IntroText = "Void Hub!"{(
 
 Tab = Window:MakeTab({
     Name = "Main", 
