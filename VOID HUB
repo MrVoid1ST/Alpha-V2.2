@@ -5,14 +5,14 @@ print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
 print("THIS HUB FULLY MADE BY MrVoid (Ozan36yt)")
 
 local player = game.Players.LocalPlayer 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() IntroText = "Void Hub!", SaveConfig = True, ConfigFolder = "Void Hub!"))
-
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
 
 local Window = OrionLib:MakeWindow({
     Name = "Void Hub-By MrVoid", 
     HidePremium = false, 
     SaveConfig = true, 
-    ConfigFolder = "OrionTest"}) 
+    ConfigFolder = "OrionTest",
+    IntroText = "Void Hub!"})
 
 Tab = Window:MakeTab({
     Name = "Main", 
