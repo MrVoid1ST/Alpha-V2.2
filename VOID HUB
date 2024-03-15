@@ -15,7 +15,7 @@ local Window = OrionLib:MakeWindow({
 
 Tab = Window:MakeTab({
     Name = "Main", 
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
 Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
