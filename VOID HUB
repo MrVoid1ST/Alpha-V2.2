@@ -45,7 +45,6 @@ Tab:AddButton({
 local Section = Tab:AddSection({ 
     Name = "Chat Bypassers And Other Chat Things" }) 
 
-
 Tab:AddButton({
     Name = "Chat Bypass Fe-New Chat!", 
     Callback = function()
@@ -453,14 +452,26 @@ local Section = Tab:AddSection({
     Name = "2024 Egg Hunt " }) 
 
 Tab:AddButton({ 
+    Name = "ALL GAME SCRIPTS FOR EGG HUNT",
+    Callback = function() 
+       loadstring(game:HttpGet("https://pastefy.app/4OH2PKxn/raw"))(); end })
+
+
+
+Tab:AddButton({ 
     Name = "Doors X Hunt",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end })
 
 Tab:AddButton({ 
-    Name = "Need More Friends x Hunt -Instant Badge",
+    Name = "Need More Friends x Hunt Instant Badge (DIE AFTER CLICK INSTANT BADGE)",
     Callback = function()
        loadstring(game:HttpGet(('https://pastefy.app/O1TvLreD/raw'),true))() end })
+
+Tab:AddButton({ 
+    Name = "Car Dealership x Egg Hunt",
+    Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTCarDealership'))() end })
 
 local Section = Tab:AddSection({ 
     Name = "Other Things" }) 
