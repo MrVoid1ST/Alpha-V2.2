@@ -195,24 +195,6 @@ Tab:AddButton({
        loadstring(game:HttpGet('https://raw.githubusercontent.com/AnonymousDarknes/ScriptROBLOX/main/message%20(4).txt', true))() end })
 
 local Section = Tab:AddSection({ 
-    Name = "Other Hubs (Reanimate)" }) 
-
-Tab:AddButton({ 
-    Name = "Sushi X",
-    Callback = function() 
-       loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))() end })
-
-Tab:AddButton({ 
-    Name = "Syntax Hub Key : Syntaxbesthub ",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn", true))() end })
-
-Tab:AddButton({ 
-    Name = "Script Hub", 
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))() end })
-
-local Section = Tab:AddSection({ 
     Name = "Genesis Fe-Re Animate #1" }) 
 
 Tab:AddButton({ 
