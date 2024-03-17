@@ -259,11 +259,6 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-laser-but-with-mini-aimbot-7196"))() end })
 
 Tab:AddButton({ 
-    Name = "Fe Fake Vr",
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./main/Wow'))() wait(10) loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./main/Wow%202'))() end })
-
-Tab:AddButton({ 
     Name = "Fe Rdc 2", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/a-literal-baseplate.-rcd-thing2-9085"))() end })
