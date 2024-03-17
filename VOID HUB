@@ -463,16 +463,6 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end })
 
 Tab:AddButton({ 
-    Name = "The Strongest Battle Grounds Key : KEY_3b16b21800a9fc4fe82f",
-    Callback = function() 
-       loadstring(game:HttpGet(('https://pastefy.app/pzmQATZR/raw'),true))() end })
-
-Tab:AddButton({ 
-    Name = "Barry's Prison -Instant Badge",
-    Callback = function() 
-       game:GetService("ReplicatedStorage").Events2024.AwardBadge:FireServer() end }
-
-Tab:AddButton({ 
     Name = "Need More Friends x Hunt Instant Badge (DIE AFTER CLICK INSTANT BADGE)",
     Callback = function()
        loadstring(game:HttpGet(('https://pastefy.app/O1TvLreD/raw'),true))() end })
