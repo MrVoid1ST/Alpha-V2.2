@@ -369,14 +369,6 @@ Tab:AddButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))() end })
 
 local Section = Tab:AddSection({ 
-    Name = "Mm2" }) 
-
-Tab:AddButton({ 
-    Name = "Mm2-Nexus Hub",
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))() end })
-
-local Section = Tab:AddSection({ 
     Name = "Pet Simulator 99" }) 
 
 Tab:AddButton({ 
