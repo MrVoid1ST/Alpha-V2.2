@@ -20,6 +20,14 @@ Tab = Window:MakeTab({
 
 Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
 
+
+Tab = Window:MakeTab({
+    Name = "Showcasers W", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddParagraph("k00lkid 👑","He is My First Showchaser....So W For Him!!!")
+
 Tab:AddButton({ 
     Name = "Re-Load The Hub",
     Callback = function() 
