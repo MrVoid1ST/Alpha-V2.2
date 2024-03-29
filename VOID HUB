@@ -29,7 +29,7 @@ Tab:AddParagraph("This is important!Read That Pls!","The R6 Hats Script are patc
 
 Tab = Window:MakeTab({
     Name = "Showcasers W", 
-    Icon = "rbxassetid://15960886470",
+    Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
 Tab:AddParagraph("k00lkid 👑","He is My First Showchaser....So W For Him!!!")
