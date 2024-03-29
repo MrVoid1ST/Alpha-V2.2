@@ -20,6 +20,12 @@ Tab = Window:MakeTab({
 
 Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
 
+Tab:AddButton({ 
+    Name = "Re-Load The Hub",
+    Callback = function() 
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Void-Hub-11130"))() end })
+
+Tab:AddParagraph("This is important!Read That Pls!","The R6 Hats Script are patched after the update!If it is patched, I will put ¡ next to it!Ty For Reading!")
 
 Tab = Window:MakeTab({
     Name = "Showcasers W", 
@@ -27,13 +33,6 @@ Tab = Window:MakeTab({
     PremiumOnly = false }) 
 
 Tab:AddParagraph("k00lkid 👑","He is My First Showchaser....So W For Him!!!")
-
-Tab:AddButton({ 
-    Name = "Re-Load The Hub",
-    Callback = function() 
-       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Void-Hub-11130"))() end })
-
-Tab:AddParagraph("This is important!Read That Pls!","The R6 Hats Script are patched after the update!If it is patched, I will put ¡ next to it!Ty For Reading!")
 
 Tab = Window:MakeTab({
     Name = "Player", 
