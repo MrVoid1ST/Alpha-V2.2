@@ -34,7 +34,7 @@ Tab = Window:MakeTab({
 
 Tab:AddParagraph("k00lkid 👑","He is My First Showchaser....So W For Him!!!")
 
-Tab:AddParagraph("Tetty ⚜,"My Second Showcasers...Thank You!")
+Tab:AddParagraph("Tetty ⚜","My Second Showcasers...Thank You!")
 
 Tab = Window:MakeTab({
     Name = "Player", 
