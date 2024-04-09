@@ -12,7 +12,7 @@ ScreenGui.Name = "Bla bla"
 Window.Name = "Window"
 Window.Parent = ScreenGui
 Window.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Window.Position = UDim2.new(0.5, -125) 125, 0.5,
+Window.Position = UDim2.new(0.5, -125 125, 0.5,)
 Window.Size = UDim2.new(0, 250, 0, 312.5)
 Window.BorderSizePixel = 2
 Window.BorderColor3 = Color3.fromRGB(60, 60, 60)
@@ -27,7 +27,7 @@ CloseButton.Size = UDim2.new(0, 25, 0, 25)
 CloseButton.Text = "X"
 CloseButton.TextColor3 = Color3.new(1, 1, 1)
 CloseButton.Font = Enum.Font.SourceSansBold
-CloseButton.MouseButton1Click:Connect(function(
+CloseButton.MouseButton1Click:Connect(function()
 
 )
 
@@ -39,12 +39,12 @@ local function styleButton(button)
 
 button.Size = UDim2.new(0, 187.5, 0, 62.5)
 button.TextColor3 = Color3.new(1, 1, 1) 
-  button.Font = Enum.Font.SourceSansBold
+button.Font = Enum.Font.SourceSansBold
 button.BorderSizePixel = 2
 button.BorderColor3 = Color3.fromRGB(100, 100, 100)
 button.TextScaled = true
 
-end
+end)
 
 styleButton(button1)
 button1.Parent = Window
@@ -52,7 +52,7 @@ button1.Position = UDim2.new(0.5, 93.75, 0, 37.5)
 button1.Text = "Expander"
 button1.TextScaled = false
 button1.TextSize = 17.5
-button1.MouseButton1Click: Connect(function()
+button1.MouseButton1Click:Connect(function()
 
          local scriptUrl ='https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua'
                     loadstring(game:HttpGet(scriptUrl))()
