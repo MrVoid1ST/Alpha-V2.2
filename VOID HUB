@@ -611,3 +611,7 @@ Tab:AddButton({
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/F3X.lua"))() end })
 
+Tab:AddButton({ 
+    Name = "Chicken Mod",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Mod.lua", true))(
