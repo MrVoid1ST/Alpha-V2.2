@@ -209,7 +209,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({ 
     Name = "Patchma Hub V33",
     Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/AnonymousDarknes/ScriptROBLOX/main/message%20(4).txt', true))() end })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnonymousDarknes/ScriptROBLOX/main/message%20(4).txt"))() end })
 
 local Section = Tab:AddSection({ 
     Name = "Genesis Fe-Re Animate #1" }) 
@@ -320,7 +320,7 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "Fe Ferris Wheel",
     Callback = function() 
-       loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_8u7A6D92KJWJXgB4btM3lJNPDy2mCi61S191KbGF2EfX9621qbXQg0tBivwEi0Kr.lua.txt'),true))() end })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_8u7A6D92KJWJXgB4btM3lJNPDy2mCi61S191KbGF2EfX9621qbXQg0tBivwEi0Kr.lua.txt"))() end })
 
 local Tab = Window:MakeTab({
     Name = "Game's", 
@@ -368,7 +368,7 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "Doors Hack (OP) By BlackKing ",
     Callback = function() 
-       loadstring(game:HttpGet(('https://pastebinp.com/raw/R8QMbhzv')))() end })
+       loadstring(game:HttpGet("https://pastebinp.com/raw/R8QMbhzv"))() end })
 
 local Section = Tab:AddSection({ 
     Name = "Sol's RNG" }) 
@@ -431,7 +431,7 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "Blade Ball-Key:IUseVisualFree",
     Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua",true))() end })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DevTravDYT/VisualProductV10/main/KeySystem/ThankForUsing!/by-d-e-v-t-r-a-v/lua"))() end })
 
 local Section = Tab:AddSection({ 
     Name = "F3x Replicators" }) 
@@ -449,7 +449,7 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "F3x Replicator 3",
     Callback = function() 
-       loadstring(game:HttpGet('https://gist.githubusercontent.com/MRSBLACK999/a1521a41ab1d1b67f5073aacce0bce32/raw/432ed275c41a160eca06ca1ad473a67a50168182/Fe%2520F3x%2520Backdoor%2520Gui'))() end })
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/MRSBLACK999/a1521a41ab1d1b67f5073aacce0bce32/raw/432ed275c41a160eca06ca1ad473a67a50168182/Fe%2520F3x%2520Backdoor%2520Gui"))() end })
 
 local Section = Tab:AddSection({ 
     Name = "Kohls Admin" }) 
@@ -492,9 +492,9 @@ Tab:AddButton({
 Tab:AddButton({ 
     Name = "Dark Modz Exploit",
     Callback = function() 
-       loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix",true))() end })
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix"))() end })
 
 Tab:AddButton({ 
     Name = "Boombox Hub( 15 or 20 boombox needed",
     Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua", true))() end })
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua"))() end })
