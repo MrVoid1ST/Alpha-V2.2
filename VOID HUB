@@ -18,12 +18,6 @@ Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
-
 Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
 
 Tab:AddButton({ 
@@ -38,11 +32,6 @@ Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
 
 Tab:AddParagraph("k00lkid 👑","He is My First Showchaser....So W For Him!!!")
 
@@ -64,12 +53,6 @@ OrionLib:MakeNotification({
     Content = "This Hub Made Fully By MrVoid (Ozan36yt)",
     Image = "rbxassetid://4483345998", 
     Time = 12 }) 
-
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
 
 Tab:AddButton({ 
     Name = "Fly",
@@ -150,12 +133,6 @@ Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
 
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
-
 Tab:AddButton({
     Name = "Fluxus", 
     Callback = function()
@@ -170,12 +147,6 @@ local Tab = Window:MakeTab({
     Name = "Gui's", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
-
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
 
 Tab:AddButton({
     Name = "C00lgui", 
@@ -218,12 +189,6 @@ local Tab = Window:MakeTab({
     PremiumOnly = false }) 
 
 Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
-
-Tab:AddButton({ 
     Name = "Ro-Xploit", 
     Callback = function() 
        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-ro-xploit-6-9233"))() end })
@@ -237,12 +202,6 @@ local Tab = Window:MakeTab({
     Name = "Fe Script's-R6", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
-
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
 
 local Section = Tab:AddSection({ 
     Name = "Patchma Hub-Re Animate #2" }) 
@@ -367,12 +326,6 @@ local Tab = Window:MakeTab({
     Name = "Game's", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
-
-Tab:AddButton({ 
-    Name = "Jeff The Killer(April Fools)",
-    Callback = function() 
-       local tool = game:GetObjects("rbxassetid://13069619857")[1]
-       tool.Parent = game.Players.LocalPlayer.Backpack end })
 
 local Section = Tab:AddSection({ 
     Name = "Blox Fruits" }) 
@@ -526,39 +479,6 @@ Tab:AddButton({
     Name = "Babft-Rolly ", 
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))() end })
-
-local Section = Tab:AddSection({ 
-    Name = "2024 Egg Hunt " }) 
-
-Tab:AddButton({ 
-    Name = "ALL GAME SCRIPTS FOR EGG HUNT",
-    Callback = function() 
-       loadstring(game:HttpGet("https://pastefy.app/4OH2PKxn/raw"))(); end })
-
-Tab:AddButton({ 
-    Name = "Doors X Hunt",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end })
-
-Tab:AddButton({ 
-    Name = "Need More Friends x Hunt Instant Badge (DIE AFTER CLICK INSTANT BADGE)",
-    Callback = function()
-       loadstring(game:HttpGet(('https://pastefy.app/O1TvLreD/raw'),true))() end })
-
-Tab:AddButton({ 
-    Name = "Car Dealership x Egg Hunt",
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTCarDealership'))() end })
-
-Tab:AddButton({ 
-    Name = "Hunt Greenville ", 
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/HUNTGreenville"))() end })
-
-Tab:AddButton({ 
-    Name = "Hunt Arsenal ", 
-    Callback = function() 
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTArsenal'))() end })
 
 local Section = Tab:AddSection({ 
     Name = "Other Things" }) 
