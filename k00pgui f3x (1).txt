@@ -1498,7 +1498,7 @@ local function C_f()
 				end
 			end 
 		end
-		spam("16359418732")
+		spam("15694493628")
 	end)
 
 	coroutine.wrap(ZYJPOKE_fake_script)()
@@ -3849,7 +3849,7 @@ local function C_27()
 				end
 			end
 		end
-		Sky("16359418732")
+		Sky("15694493628")
 
 	end)
 end;
