@@ -1,0 +1,27 @@
+local player = game.Players.LocalPlayer 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "Diddy Jackpots Test", 
+    HidePremium = false, 
+    SaveConfig = true, 
+    ConfigFolder = "OrionTest"})
+
+Tab = Window:MakeTab({
+    Name = "Main", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
+
+Tab:AddParagraph("Hi!Im MrVoid","This Hub Made By Me.My Roblox User Is MrVoid (Ozan36yt) and my alt acc Ozan_Oyunda68.I hope u like this hub!")
+
+OrionLib:MakeNotification({
+    Name = "Welcome!", 
+    Content = "Welcome to Darkness...!",
+    Image = "rbxassetid://4483345998", 
+    Time = 5 }) 
+
+Tab = Window:MakeTab({
+    Name = "Player", 
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false }) 
