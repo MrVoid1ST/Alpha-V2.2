@@ -25,3 +25,32 @@ Tab = Window:MakeTab({
     Name = "Player", 
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false }) 
+
+PlayerTab:AddToggle({
+    Name = "Auto Click",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+getgenv().farmer = true;
+
+while wait() do
+   if getgenv().farmer == true then
+      local args = {
+    [1] = 0
+}
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Bux"):FireServer(unpack(args));
+else
+    getgenv().farmer = false;
+
+while wait() do
+   if getgenv().farmer == true then
+      local args = {
+    [1] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Bux"):FireServer(unpack(args));
+
+      end
+   end
+})
