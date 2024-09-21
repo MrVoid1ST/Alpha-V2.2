@@ -1,0 +1,28 @@
+HttpService = game:GetService("HttpService")
+Webhook_URL = "put url there"
+
+local responce = syn.request(
+{
+    Url = Webhook_URL,
+    Method = 'POST',
+    Headers = {
+        ['Content-Type'] = 'application/json'
+    },
+    Body = HttpService:JSONEncode({
+        ["content"] = "",
+        ["embeds"] = ({
+            ["title"] = "**Void Hub X Has been executed!**",
+            ["description"] = game.Players.LocalPlayer.DisplayName.." has executed the script.",
+            ["type"] = "rich",
+            ["color"] = tonumber(0xffffff),
+            ["fields"] = {
+                {
+                    ["name"] = "Hardware Id:",
+                    ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+                    ["inline"] = true
+                }
+            }
+        }}
+    })
+}
+)
