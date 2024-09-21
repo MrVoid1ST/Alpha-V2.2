@@ -1,11 +1,8 @@
 --Move & Ultimate Names
 
 local player = game.Players.LocalPlayer
-
 local playerGui = player.PlayerGui
-
 local hotbar = playerGui:FindFirstChild("Hotbar")
-
 local backpack = hotbar:FindFirstChild("Backpack")
 
 local hotbarFrame = backpack:FindFirstChild("Hotbar")
@@ -228,7 +225,7 @@ end
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
 
-local animationId = 10471336737
+local animationId = 184574340
 
 
 local player = game.Players.LocalPlayer
@@ -267,7 +264,7 @@ local startTime = 0.3
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(1)
 
 Anim.TimePosition = startTime
 
